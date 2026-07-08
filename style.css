@@ -1,6 +1,6 @@
 body {
   font-family: "TH Sarabun New", sans-serif;
-  background-image: url("thai-pattern.png"); /* ใช้ไฟล์พื้นหลังที่อยู่โฟลเดอร์เดียวกัน */
+  background-image: url("thai-pattern.jpg.jpg"); /* ใช้ไฟล์พื้นหลังที่อยู่โฟลเดอร์เดียวกัน */
   background-size: cover;
   background-attachment: fixed;
   margin: 0;
