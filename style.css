@@ -1,0 +1,102 @@
+body {
+  font-family: "TH Sarabun New", sans-serif;
+  background-image: url("thai-pattern.png"); /* ใช้ไฟล์พื้นหลังที่อยู่โฟลเดอร์เดียวกัน */
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: auto;
+}
+
+header, footer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 32px;
+  color: #003399;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.royal-image {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.royal-image img {
+  max-width: 300px;
+  border: 6px solid gold;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.org {
+  font-size: 18px;
+  font-weight: bold;
+  color: #990000;
+  text-align: center;
+  margin: 20px 0;
+}
+
+form {
+  text-align: left;
+  max-width: 500px;
+  margin: auto;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: gold;
+  color: black;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+}
+
+button:hover {
+  background-color: #ffd700;
+}
+
+/* Responsive สำหรับมือถือ */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .royal-image img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  button {
+    width: 100%;
+    font-size: 18px;
+  }
+}
